@@ -20,23 +20,24 @@ namespace SwitchCase
                 );
 
             String s1 = null;
+            int i1 = 0;
             s1 = Console.ReadLine();
-
-            switch(s1)
+            i1 = Convert.ToInt32(Console.ReadLine());
+            switch(i1)
             {
-                case "1":
+                case 1:
                     Console.WriteLine("Seleccionaste la opcion suma");
                     break;
-                case "2":
+                case 2:
                     Console.WriteLine("Seleccionaste la opcion resta");
                     break;
-                case "3":
+                case 3:
                     Console.WriteLine("Seleccionaste la opcion multiplicacion");
                     break;
-                case "4":
+                case 4:
                     Console.WriteLine("Seleccionaste la opcion division");
                     break;
-                case "5":
+                case 5:
                     Console.WriteLine("Seleccionaste la opcion salir");
                     break;
                 default:
